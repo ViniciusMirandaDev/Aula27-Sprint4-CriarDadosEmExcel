@@ -1,0 +1,13 @@
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.exe
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.deps.json
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.runtimeconfig.json
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.runtimeconfig.dev.json
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.dll
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\bin\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.pdb
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.csprojAssemblyReference.cache
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.csproj.CoreCompileInputs.cache
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.AssemblyInfoInputs.cache
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.AssemblyInfo.cs
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.dll
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.pdb
+C:\Users\amand\Desktop\Projeto senai\Aula27-Sprint4-CriarDadosEmExcel\obj\Debug\netcoreapp3.1\Aula27-Sprint4-CriarDadosEmExcel.genruntimeconfig.cache
