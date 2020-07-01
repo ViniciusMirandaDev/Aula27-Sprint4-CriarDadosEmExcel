@@ -68,12 +68,17 @@ namespace Aula27_Sprint4_CriarDadosEmExcel
             return Produtos;
         }
 
+        /// <summary>
+        /// Remove uma ou mais linhas que contenham o termo
+        /// </summary>
+        /// <param name="_termo">termo para ser buscado</param>
         public void Remover(string _termo){
 
             // Criamos uma lista que servirá como uma espécie de backup para as linhas do csv
             List<string> linhas = new List<string>();
 
             // Utilizamos a biblioteca StreamReader para ler nosso .csv
+            //Using serve para não sobrecarregar o sistema(Ele abre e fecha)
             using(StreamReader arquivo = new StreamReader(PATH))
             {
                 string linha;
@@ -96,7 +101,11 @@ namespace Aula27_Sprint4_CriarDadosEmExcel
             }
         }
 
-
+        /// <summary>
+        /// Irá filtrar o nome
+        /// </summary>
+        /// <param name="_nome">Objeto nome</param>
+        /// <returns>Retornará o nome procurado</returns>
         public List<Produto> Filtrar(string _nome){
             return Ler().FindAll(x=> x.Nome == _nome);
         }
