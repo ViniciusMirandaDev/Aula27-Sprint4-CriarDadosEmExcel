@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace Aula27_Sprint4_CriarDadosEmExcel
 {
@@ -59,13 +60,46 @@ namespace Aula27_Sprint4_CriarDadosEmExcel
                 p.Preco     = float.Parse ( Separar (dado[2]) );
 
                 Produtos.Add(p);
-
+                
             }
+
+            Produtos = Produtos.OrderBy( y => y.Nome).ToList();
 
             return Produtos;
         }
 
+        public void Remover(string _termo){
 
+            // Criamos uma lista que servirá como uma espécie de backup para as linhas do csv
+            List<string> linhas = new List<string>();
+
+            // Utilizamos a biblioteca StreamReader para ler nosso .csv
+            using(StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while((linha = arquivo.ReadLine()) !=null)
+                {
+                    linhas.Add(linha);
+                }
+            }
+
+            // Removemos as linhas que tiverem o termo passado como argumento
+            linhas.RemoveAll(l => l.Contains(_termo));
+
+            // Reescrevemos nosso csv do zero
+            using(StreamWriter output = new StreamWriter(PATH))
+            {
+                foreach(string ln in linhas)
+                {
+                    output.Write( ln + "\n");
+                }
+            }
+        }
+
+
+        public List<Produto> Filtrar(string _nome){
+            return Ler().FindAll(x=> x.Nome == _nome);
+        }
 
         /// <summary>
         /// Separa o csv em colunas
